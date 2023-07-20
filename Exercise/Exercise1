@@ -1,0 +1,30 @@
+##Pseudocode 
+
+exercise 1:
+ Write pseudocode for a program that takes two numbers as input and displays their sum.
+
+/**
+* Prompt the user to enter the first number
+*/
+
+Display "Enter the first number:"
+  Input first number
+
+/**
+* Prompt the user to enter the second number
+*/ 
+
+Display "Enter the second number:"
+   Input second number
+
+/**
+*Calculate the sum of the tow numbers
+*/
+
+Sum = first number  + second number
+
+/**
+*Display the result
+*/
+
+Display "the Sum of", fist number, "and" , second number, "is", Sum

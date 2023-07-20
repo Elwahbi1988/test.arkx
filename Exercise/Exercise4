@@ -1,0 +1,50 @@
+##Exercise 4: 
+
+Write pseudocode for a program that finds the maximum number among three given numbers and displays it
+
+/**
+*Prompt the user to enter the first number
+/*
+
+Display "Enter the first number:"
+Input first number
+
+/**
+*Prompt the user to enter the second number
+/*
+
+Display "Enter the second number:"
+Input second number
+
+/**
+*Prompt the user to enter the third number
+/*
+
+Display "Enter the third number:"
+Input third number
+
+/**
+*Assume the first number is the maximum
+/*
+
+max number = first number
+
+/**
+*Compare the second number with the current maximum
+*/
+
+if second number > max number:
+    max number = second number
+
+/**
+*Compare the third number with the current maximum
+/*
+
+if third number > max number:
+    max number = third number
+
+/**
+*Display the maximum number
+/*
+
+Display "The maximum number among", first number, ",", second number

@@ -1,0 +1,41 @@
+##Exercise 2:
+
+Write pseudocode for a program that calculates and displays the average of three numbers
+
+/**
+*Prompt the user to enter the first number
+*/
+
+Display "Enter the first number:"
+Input first number
+
+/**
+*Prompt the user to enter the second  number
+*/
+
+Display "Enter the second number:"
+Input second number
+
+/**
+*Prompt the user to enter the third number
+*/
+
+Display "Enter the third number:"
+Input third number
+
+/**
+*Calculate the sum of the three numbers
+*/
+
+sum = first number + second number + third number
+
+/**
+*Calculate the average by dividing the sum by 3 (number of inputs)
+*/
+average = sum / 3
+
+/**
+*Display the result
+*/
+
+Display "The average of", first number, ",", second number, "and", third number, "is", average.

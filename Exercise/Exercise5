@@ -1,0 +1,29 @@
+##Exercise 5: 
+
+Write pseudocode for a program that calculates the factorial of a given number and displays the result.
+
+/**
+*Prompt the user to enter a number
+/*
+
+Display "Enter a number:"
+Input number
+
+/**
+*Initialize a variable to hold the factorial result
+/*
+
+factorial = 1
+
+/**
+*Calculate the factorial of the number
+/*
+
+for i from 1 to number:
+    factorial = factorial * i
+
+/**
+*Display the factorial result
+/*
+
+Display "The factorial of", number, "is", factorial

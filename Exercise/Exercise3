@@ -1,0 +1,23 @@
+##Exercise 3:
+
+Write pseudocode for a program that checks if a given number is even or odd and displays the result.
+
+/**
+*Prompt the user to enter a number
+/*
+
+Display "Enter a numbre:"
+Input number
+
+/**
+*Check if the number is even or odd
+*modulo : %
+/*
+
+if number modulo 2 == 0:
+    
+   Display number, "is an even number."
+
+else:
+   
+   Display number, "is an odd number."
