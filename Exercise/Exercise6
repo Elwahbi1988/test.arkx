@@ -1,0 +1,21 @@
+##Exercise 6:
+
+Write pseudocode for a program that prompts the user for their age and displays a message indicating whether they are eligible to vote (considering a voting age of 18 years).
+
+
+/**
+*Prompt the user to enter their age
+*/
+Display "Enter your age:"
+Input age
+
+/**
+*Check if the age is greater than or equal to the voting age
+*/
+
+if age >= 18:
+    Display "You are eligible to vote."
+
+else:
+    Display "You are not eligible to vote yet."
+

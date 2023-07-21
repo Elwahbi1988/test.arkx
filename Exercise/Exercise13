@@ -1,0 +1,44 @@
+Exercise 13
+
+A shop offers these customers a 15% reduction for purchase amounts over 200 dh. Write an algorithm to enter the total price excluding tax and calculate the amount including tax taking into account the reduction and VAT=20%.
+
+/**
+*Demander à l'utilisateur d'entrer le montant total hors taxe (HT).
+*/
+
+/**
+*initialiser variable "reduction"  (15%)
+*/.
+reduction = 0.15
+
+/**
+*variable "VAT" (20%).
+*/
+VAT = 0.20
+
+/**
+*initialiser "montant Reduction".
+*
+montant reduction = 0
+
+/**
+*Si le montant total hors taxe (HT) est supérieur à 200 dh, 
+*
+if (montant total user > 200dh)
+
+/**
+*Calculer "montant Reduction" en soustrayant la réduction du montant HT.
+*
+else
+ montant reduction = montant HT
+            Affecter à "montant Reduction" la valeur du montant HT.
+    
+/**
+*Calculer le montant de la TVA en multipliant "montant Reduction" par la valeur de "VAT".
+*
+/**
+*Calculer le montant total TTC en ajoutant le montant de la TVA à "montant Reduction".
+*
+/**
+*Afficher le montant total TTC.
+*

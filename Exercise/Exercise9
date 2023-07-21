@@ -1,0 +1,33 @@
+Exercise 9:
+Write a program that reads in 7 different numbers, then prints out the smallest value and also prints out the position of the smallest value in the input sequence as a number from 1 to 7.
+
+
+/**
+*Initialize variables to store the smallest value and its position
+*/
+smallest = infini
+smallest position = 0
+
+/**
+*Read in 7 different numbers from the user
+*/
+for i from 1 to 7:
+/**
+*Prompt the user to enter a number
+*/
+    Display "Enter number ", i, ":"
+    Input number
+
+/**
+*Check if the number is smaller than the current smallest value
+ */
+
+if number < smallest :
+        smallest  = number
+        smallest position = i
+
+/**
+*Display the smallest value and its position
+*/
+Display "The smallest is:", smallest
+Display "Its position in the input sequence is:", smallest position

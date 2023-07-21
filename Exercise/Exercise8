@@ -1,0 +1,50 @@
+Exercise 8: 
+Write pseudocode for a program that takes a list of numbers as input and displays the sum of all the positive numbers in the list.
+
+
+/**
+*Prompt the user to enter a list of numbers, separated by spaces
+*/
+
+Display "Enter a list of numbers (separated by spaces):"
+Input numbersList
+
+/**
+*Split the input string into individual numbers
+*/
+numbers = Split numbers list by ' '
+
+/**
+*Initialize a variable to hold the sum of positive numbers
+*/
+
+Sum positive = 0
+
+/**
+*Loop through each number in the list
+*
+for each number in numbers
+
+/**
+*Convert the number from string to a numerical value
+*/
+
+num = Convert number to numerical value
+    
+ /**
+ *Check if the number is positive
+ */
+  
+  if num > 0:
+
+/**
+*Add the positive number to the sum
+*/       
+
+Sum Positive = Sum Positive + num
+
+/**
+*Display the sum of positive numbers
+*/
+
+Display "The sum of positive numbers is:", Sum positive

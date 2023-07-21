@@ -1,0 +1,24 @@
+Exercice 12:
+Write an algorithm that displays the multiplication table of 8. Using the Repeat Until loop.
+
+
+/**
+*Créer une variable "i" et l'initialiser à 1. 
+*Cette variable servira de compteur pour générer la table.
+*/
+i = 1
+/**
+*Créer une variable "result" et l'initialiser à 0. 
+*Elle stockera le résultat de la multiplication.
+*/
+result = 0
+/**
+*Répéter les étapes a,b,c jusqu' ce que "i" soit supérieur à 10.
+*/
+    a) calculate  "result" la valeur de 8 multiplié par "i".
+    8 * i= result
+    b) print  "result" 
+    print ("8 x i = result")
+    c) Incrémenter  "i" de 1.
+    i++;
+Fin Répéter

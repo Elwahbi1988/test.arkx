@@ -1,0 +1,41 @@
+##Exercise 7: 
+
+Write pseudocode for a program that prompts the user for a sentence and counts the number of words in it.
+
+/**
+* Prompt the user enter the sentence 
+*/
+
+Display "Enter a sentence"
+Input the sentence
+
+
+/**
+* Initialize a variable to hold the word count and set it to 1
+*/
+
+word count = 1
+
+/**
+*Traverse through each character in the sentence
+*/
+
+for each character in sentence:
+
+/**
+* Check if the character is a space 
+*/   
+ if character == ' ':
+
+/**
+*Increment the word count
+*/
+        word count = word count + 1
+
+/**
+*Display the word count
+*/
+
+Display "The number of words in the sentence is:", word count sentence"
+Input the sentence
+

@@ -1,0 +1,24 @@
+Exercice 14:
+
+Write an algorithm that asks the user for two numbers m and n and then informs them whether the product of these two numbers is positive or negative. We include in the program the case where the product can be zero.
+
+/**
+*Demander à l'utilisateur d'entrer deux nombres "m" et "n".
+*/
+print (enter deux nombres séparer avec un espaces")
+scan (number 1= m , number 2 = n)
+/**
+*initialiser variable  "product"
+*
+product = m * n
+
+/**
+*if  "product" est égal à zéro, 
+*/
+print ("Le produit de m et n est égal à zéro.")
+
+else if  product > 0    // "product" est supérieur à zéro,//
+
+            print ("Le produit de m et n est positif.")
+else,
+            print ( "Le produit de m et n est négatif.")

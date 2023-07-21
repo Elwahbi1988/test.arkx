@@ -1,0 +1,42 @@
+Exercise 10:
+Write an algorithm allowing to enter 10 integers in an array, and to calculate the number of occurrences of an element N in this array. Where N entered by the user.
+
+
+/**
+*créer un tableau d'entiers "nombres" de taille 10
+*/
+array [10]
+
+
+/**
+*initialisation de  variable "count" 
+*/
+count = 0;
+
+/**
+* scan 10 integer to user 
+*/
+
+print( "enter the number (0-9):")
+scan(number: = N)
+
+/**
+*read 10 integer and stocke in an array.
+*
+Read [i] = 0-9
+
+/**
+*Lire la valeur de N à partir de l'utilisateur.
+
+/**
+* boucle pour parcourir le tableau et compter les occurrences de N.
+*/
+    count = 0
+    Pour i = 0 à 9
+
+        if array [i] = N
+         count++;
+
+/**
+*Afficher la valeur de "count", qui représente le nombre d'occurrences de N dans le tableau.
+*/

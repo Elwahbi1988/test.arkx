@@ -1,0 +1,38 @@
+Exercice 11
+
+Ecrire un algorithme qui demande la saisie d'un tableau T de 10 entiers, et de mettre les éléments pairs dans un tableau T1 et les éléments impaires dans un tableau T2. Puis afficher T1 et T2.
+
+/**
+*Créer trois tableaux d'entiers : T, T1, T2
+*/
+Array T,T1, T2;
+
+/**
+*creat index initialiser de 0-9
+*/
+i = 0 à 9 :
+ /**
+ *read to user index
+ */
+ T[i]
+ /**
+*Initialiser variables "indexT1" et "indexT2" à 0 
+*/
+indexT1 = 0
+indexT2 = 0
+Pour i allant de 0 à 9 :
+             if  T[i] est pair, alors
+                 T1[indexT1] = T[i]
+                 Incrémenter indexT1 de 1
+             Else,
+                 T2[indexT2] = T[i]
+                 Incrémenter indexT2 de 1
+             
+          print "T1 : "
+          Pour i  = 0 à (indexT1 - 1) :
+              print  T1[i]
+          
+          print  "T2 : "
+          Pour i =  0 à (indexT2 - 1) :
+              print  T2[i]
+          
